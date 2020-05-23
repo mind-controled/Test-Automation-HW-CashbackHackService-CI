@@ -6,11 +6,6 @@ public class CashbackHackServiceTest {
     CashbackHackService service = new CashbackHackService();
 
     @org.junit.Test
-    public void shouldReturn1000for0() {
-        assertEquals(1000, service.remain(0));
-    }
-
-    @org.junit.Test
     public void shouldReturn100For900() {
         assertEquals(900, service.remain(100));
     }
